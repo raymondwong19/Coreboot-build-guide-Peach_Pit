@@ -1,0 +1,6 @@
+All right - I read the developer comments from like pmOS dev Grimler and the Chromium OS devs.
+
+It was said that Peach never used Coreboot - it used U-Boot. And well the Coreboot code is more like a incomplete stub - forget bit rot - it was never finished even in the older 4.x versions of the Peach's era I suppose.
+Grimler did try (and fail) to dd the stock BL1 and BL2 and append his old stock version (locally compiled) U-Boot along with Google Verified Boot but it bricked his device.
+
+Chromium OS threads seems to have better luck with the vendor fork and the old GCC 4.6/4.7 versions of the Peach's time. Even then - it is the stock firmware and it's not exactly customizable - GBB is what you'd be relying on...
